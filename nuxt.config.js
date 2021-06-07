@@ -19,7 +19,7 @@ module.exports = {
     },
     plugins: ['~/plugins/request', '~/plugins/dateFormat'],
     server: {
-        host: '106.75.222.146',
+        host: '0.0.0.0',
         port: 3000
     }
 }
