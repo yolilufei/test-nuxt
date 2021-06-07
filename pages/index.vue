@@ -65,7 +65,14 @@
                   ><img :src="article.author.image"
                 /></nuxt-link>
                 <div class="info">
-                  <a href="" class="author">{{ article.author.username }}</a>
+                  <nuxt-link
+                  :to="{
+                    name: 'profile-username',
+                    params: {
+                      username: article.author.username,
+                    },
+                  }"
+                  >{{article.author.username}}</nuxt-link>
                   <span class="date">{{ article.createAt | dateFormat('MMM DD, YYYY') }}</span>
                 </div>
                 <button

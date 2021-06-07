@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{196:function(n,t,e){"use strict";e.r(t),e.d(t,"loginService",(function(){return o})),e.d(t,"registerService",(function(){return c}));var r=e(63),o=function(data){return Object(r.b)({method:"post",url:"/api/users/login",data:data})},c=function(data){return Object(r.b)({method:"post",url:"/api/users",data:data})}}}]);

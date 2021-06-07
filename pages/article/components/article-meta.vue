@@ -1,14 +1,14 @@
 <template>
   <div class="article-meta">
     <nuxt-link :to="{
-      name: '/profile',
+      name: 'profile-username',
       params: {
         username: article.author.username
       }
     }"><img :src="article.author.image"/></nuxt-link>
     <div class="info">
       <nuxt-link :to="{
-      name: '/profile',
+      name: 'profile-username',
       params: {
         username: article.author.username
       }

@@ -13,3 +13,11 @@ export const queryArticleCommentService = slug => {
         url: `/api/articles/${slug}/comments`
     })
 }
+
+export const postCommentService = (slug, data) => {
+    return request({
+        method: 'post',
+        url: `/api/articles/${slug}/comments`,
+        data
+    })
+}

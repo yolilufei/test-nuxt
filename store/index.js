@@ -1,36 +1,30 @@
 export const state = () => {
-    return {
-        user: null,
-        accessToken: ''
-    }
-}
+  return {
+    user: null,
+  };
+};
 
 export const mutations = {
-    setUser(state, user) {
-        state.user = user;
-        state.accessToken = user.token;
-    },
-    setToken(state, token) {
-        state.accessToken = token;
-    },
-    clearUser(state) {
-        state.user = null;
-        state.accessToken = '';
-    }
-}
+  setUser(state, user) {
+    state.user = user;
+  },
+  clearUser(state) {
+    state.user = null;
+  },
+};
 
 export const actions = {
-    nuxtServerInit({commit}, { req }) {
-        const cookie = req?.headers?.cookie;
-        const cookieParser = process.server ? require('cookieparser') : undefined;
-        if (cookie) {
-            try {
-                const user = cookieParser.parse(cookie);
-                const auth = JSON.parse(user.auth);
-                commit('setToken', auth);
-            } catch(err){
-                console.log(err);
-            }
-        }
+  nuxtServerInit({ commit }, { req }) {
+    const cookie = req?.headers?.cookie;
+    const cookieParser = process.server ? require("cookieparser") : undefined;
+    if (cookie) {
+      try {
+        const user = cookieParser.parse(cookie);
+        const auth = JSON.parse(user.auth);
+        commit("setUser", auth);
+      } catch (err) {
+        console.log(err);
+      }
     }
-}
+  },
+};

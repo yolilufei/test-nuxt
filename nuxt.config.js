@@ -18,8 +18,8 @@ module.exports = {
         }
     },
     plugins: ['~/plugins/request', '~/plugins/dateFormat'],
-    server: {
-        host: '0.0.0.0',
-        port: 80
-    }
+    // server: {
+    //     host: '0.0.0.0',
+    //     port: 80
+    // }
 }
