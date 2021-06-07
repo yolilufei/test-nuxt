@@ -1,0 +1,98 @@
+[
+  {
+    "name": "create-article",
+    "path": "/create-article",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/create-article/index.vue",
+    "chunkName": "pages/create-article/index",
+    "_name": "_49203b82"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/login/index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_0a6a8425"
+  },
+  {
+    "name": "service",
+    "path": "/service",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/service/index.js",
+    "chunkName": "pages/service/index",
+    "_name": "_4ae2dd3e"
+  },
+  {
+    "name": "settings",
+    "path": "/settings",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/settings/index.vue",
+    "chunkName": "pages/settings/index",
+    "_name": "_ef6e8206"
+  },
+  {
+    "name": "article-service",
+    "path": "/article/service",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/article/service/index.js",
+    "chunkName": "pages/article/service/index",
+    "_name": "_c1fa2392"
+  },
+  {
+    "name": "login-service",
+    "path": "/login/service",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/login/service/index.js",
+    "chunkName": "pages/login/service/index",
+    "_name": "_2fe8b838"
+  },
+  {
+    "name": "settings-service",
+    "path": "/settings/service",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/settings/service/index.js",
+    "chunkName": "pages/settings/service/index",
+    "_name": "_5e96060c"
+  },
+  {
+    "name": "article-components-article-comments",
+    "path": "/article/components/article-comments",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/article/components/article-comments.vue",
+    "chunkName": "pages/article/components/article-comments",
+    "_name": "_41df8024"
+  },
+  {
+    "name": "article-components-article-meta",
+    "path": "/article/components/article-meta",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/article/components/article-meta.vue",
+    "chunkName": "pages/article/components/article-meta",
+    "_name": "_7902d3b5"
+  },
+  {
+    "name": "article-id",
+    "path": "/article/:id?",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/article/_id.vue",
+    "chunkName": "pages/article/_id",
+    "_name": "_48aeefcc"
+  },
+  {
+    "name": "profile-username",
+    "path": "/profile/:username?",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/profile/_username.vue",
+    "chunkName": "pages/profile/_username",
+    "_name": "_5e7d26f0"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_0425bc0b"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/login",
+    "_name": "_8172fcec"
+  },
+  {
+    "name": "edit-article",
+    "path": "/edit-article",
+    "component": "/Users/wangxiaoxia/Documents/lilufei/test-nuxt/pages/create-article",
+    "_name": "_34ebd824"
+  }
+]

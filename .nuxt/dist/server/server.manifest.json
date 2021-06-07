@@ -1,0 +1,33 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/article/_id.js": "pages/article/_id.js",
+    "pages/article/components/article-comments.js": "pages/article/components/article-comments.js",
+    "pages/article/components/article-meta.js": "pages/article/components/article-meta.js",
+    "pages/article/service/index.js": "pages/article/service/index.js",
+    "pages/create-article/index.js": "pages/create-article/index.js",
+    "pages/index.js": "pages/index.js",
+    "pages/login/index.js": "pages/login/index.js",
+    "pages/login/service/index.js": "pages/login/service/index.js",
+    "pages/profile/_username.js": "pages/profile/_username.js",
+    "pages/service/index.js": "pages/service/index.js",
+    "pages/settings/index.js": "pages/settings/index.js",
+    "pages/settings/service/index.js": "pages/settings/service/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/article/_id.js": "pages/article/_id.js.map",
+    "pages/article/components/article-comments.js": "pages/article/components/article-comments.js.map",
+    "pages/article/components/article-meta.js": "pages/article/components/article-meta.js.map",
+    "pages/article/service/index.js": "pages/article/service/index.js.map",
+    "pages/create-article/index.js": "pages/create-article/index.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/login/index.js": "pages/login/index.js.map",
+    "pages/login/service/index.js": "pages/login/service/index.js.map",
+    "pages/profile/_username.js": "pages/profile/_username.js.map",
+    "pages/service/index.js": "pages/service/index.js.map",
+    "pages/settings/index.js": "pages/settings/index.js.map",
+    "pages/settings/service/index.js": "pages/settings/service/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
